@@ -1,0 +1,41 @@
+
+body { 
+    background: rgb(99, 144, 129);
+    background: linear-gradient(347deg, rgba(99, 144, 129, 1) 0%, rgba(255, 201, 2, 1) 100%);
+}
+
+.header{ 
+    border-bottom: 1px solid black;
+}
+
+.logo { 
+    width: 200px;
+    display: inline-block;
+}
+
+.logo-img{
+    object-fit: cover;
+    width: 100%;   
+}
+
+#nav {
+    display: inline-block;
+    width: calc(100% - 207px);
+}
+
+.menu { 
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.menu-item{
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.content{
+    width: 940px;
+    padding: 0 25%;
+}

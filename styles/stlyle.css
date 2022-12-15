@@ -1,0 +1,106 @@
+.page-header{
+    margin: 0 3em;
+    text-align: center;
+    min-width: max-content;
+}
+
+.page-name { 
+    display: inline-block;
+    width: 10rem;
+}
+
+.page-nav{
+    display: inline-block;
+    width: calc(100% - 268px);
+    font-size: 1.3rem; 
+    text-align: center;
+}
+
+.language-toggler{
+    display: inline-block;
+    cursor: pointer;
+    width: 100px;
+    height: 100px;
+}
+
+.toggler-img{
+    position: relative;
+    top: 20px;
+    width: 100%;
+    height: 100px;
+}
+
+.horizontal-list-elem {
+    margin: 0 1rem;
+}
+
+.vertical-list-elem {
+    margin: 0.5rem 0;
+}
+
+.main{
+    font-size: 1.2rem;
+    display: inline-block; 
+}
+
+.profile-figure{
+    position: relative;
+    top: -4rem;
+    display: inline-block;
+    min-width: 250px;
+    width: 300px;
+    height: 100%;
+    text-align: center;
+}
+
+.figure-img{
+    position: absolute;
+    bottom: 200%;
+    right: 1%;
+    width:300px;   
+    margin: 0 0 -6em 0;
+}
+
+.about-info{
+    width: calc(100% - 700px);
+    display: inline-block;
+    margin: 0 1em;
+}
+
+.aside-about{
+    object-position: top;
+    display: inline-block;
+    min-width: 200px;
+    border: 1px solid grey;
+    border-radius: 1em;
+    padding: 0 0.5em;
+    height: 100%;
+}
+
+.general-list {
+    padding: 0;
+    list-style: none;
+}
+
+.page-footer{
+    padding: 0 1em 1em 1em;
+}
+
+.additional-info{
+    display: inline-block;
+    width: calc(100% - 750px);
+    margin: 0 1rem;
+    height: min-content;
+}
+
+.contact-info{
+    display: inline-block;
+    min-width: 300px;
+    width: 300px;
+}
+
+.iframe-section{ 
+    display: inline-block;
+    min-width: 400px;
+    width: 400px;
+}
