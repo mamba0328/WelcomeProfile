@@ -5,40 +5,40 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/normalize.css">
+    <link rel="stylesheet" href="../styles/stlyle.css">
     <title>Welcome Profile Eng </title>
 </head>
 
 <body>
+    <header class="page-header">
 
-    <header style="display: flex; align-items: center; justify-content: space-between; margin: 0 3em;">
+        <h2 class="page-name">My profile</h2>
 
-        <h2>My profile</h2>
-
-        <nav style="font-size: 1.3rem; min-width: max-content;">
-            <a href="#about-info">About me</a>
-            <a href="#contact-info" style="margin: 0 3rem;">Contacts</a>
-            <a href="https://github.com/mamba0328/WelcomeProfile"  target="_blank">Repository of the project</a> 
+        <nav class="page-nav">
+            <a href="#about-info" class="horizontal-list-elem">About me</a>
+            <a href="#contact-info"  class="horizontal-list-elem">Contacts</a>
+            <a href="https://github.com/mamba0328/WelcomeProfile"  target="_blank" class="horizontal-list-elem">Repository of the project</a> 
+            <a href="./indexHW.html" target="_blank" class="horizontal-list-elem">Another Homework</a>
         </nav>
 
-        <a href="../index.html">
-            <img src="../assets/imgs/ukrainianBall.jpg" alt="big ukrainianBall ball"
-                style="cursor: pointer; width: 100px; height: 100px;">
+        <a href="../index.html" class="language-toggler">
+            <img src="../assets/imgs/ukrainianBall.jpg" alt="big ukrainianBall ball" class="toggler-img">
         </a>
 
     </header>
 
     <hr>
 
-    <main style="display: flex; font-size: 1.2rem;">
+    <main class="main" >
 
-        <figure style="text-align: center;">
-            <img src="../assets/imgs/profilePhoto.jpg" width="300" height="auto">
-            <figcaption>
+        <figure class="profile-figure">
+            <img src="../assets/imgs/profilePhoto.jpg" class="figure-img">
                 <h1>Dzezhulei Valentyn</h1>
             </figcaption>
         </figure>
 
-        <section id="about-info" style="min-width: 300px; margin: 0 1em;">
+        <section id="about-info" class="about-info">
 
             <article>
                 <h3>Who am I?</h3>
@@ -129,12 +129,12 @@
 
         </section>
 
-        <aside
-            style="min-width: 200px;border: 1px solid grey; border-radius: 1em; padding: 0 0.5em; height: max-content;">
+        <aside class="aside-about">
+            
 
             <div>
                 <h3>My skills</h3>
-                <ul style="padding:0;list-style:none;">
+                <ul class="general-list">
                     <li>Lorem</li>
                     <li>Lorem, ipsum.</li>
                     <li>Lorem, ipsum dolor.</li>
@@ -144,7 +144,7 @@
 
             <div>
                 <h3>My achivements</h3>
-                <ul style="padding:0;list-style:none;">
+                <ul class="general-list">
                     <li>Lorem</li>
                     <li>Lorem, ipsum.</li>
                     <li>Lorem, ipsum dolor.</li>
@@ -154,7 +154,7 @@
 
             <div>
                 <h3>My goals</h3>
-                <ul style="padding:0;list-style:none;">
+                <ul class="general-list">
                     <li>Lorem</li>
                     <li>Lorem, ipsum.</li>
                     <li>Lorem, ipsum dolor.</li>
@@ -164,7 +164,7 @@
 
             <div>
                 <h3>Testimonials:</h3>
-                <ul style="padding:0;list-style:none;">
+                <ul class="general-list">
                     <li>Lorem</li>
                     <li>Lorem, ipsum.</li>
                     <li>Lorem, ipsum dolor.</li>
@@ -172,13 +172,22 @@
                 </ul>
             </div>
 
+            <div>
+                <h3>Мої навички</h3>
+                <ul class="general-list">
+                    <li>Lorem</li>
+                    <li>Lorem, ipsum.</li>
+                    <li>Lorem, ipsum dolor.</li>
+                    <li>Lorem </li>
+                </ul>
+            </div>
     </main>
 
     <hr>
 
-    <footer style="display: flex; align-items:flex-start; justify-content:flex-start;">
+    <footer class="page-footer">
     
-        <section style="min-width:200px ; margin: 0 1rem">
+        <section class="additional-info">
             <article>
                 <h3>Users policy</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores illo nihil quidem dolorum soluta,
@@ -208,33 +217,33 @@
             </article>
         </section>
     
-        <section id="contact-info" style="min-width:max-content;">
+        <section id="contact-info" class="contact-info">
     
             <div>
                 <h3>Contact me:</h3>
-                <ul style="list-style: none; padding: 0;">
-                    <li><em>Instagram:</em> <a href="https://www.instagram.com/dzhezhuley/"  target="_blank">@dzhezhuley</a></li>
-                    <li style="margin: 0.5em 0;"><em>Telegram:</em> <a href="https://t.me/lama_n_tin"  target="_blank">t.me/dzhezhuley</a></li>
-                    <li><em>Email: </em><a href="mailto:valentindjejylej@gmail.com">valentindjejylej@gmail.com</a></li>
+                <ul class="general-list">
+                    <li class="vertical-list-elem"><em>Instagram:</em> <a href="https://www.instagram.com/dzhezhuley/"  target="_blank">@dzhezhuley</a></li>
+                    <li class="vertical-list-elem"><em>Telegram:</em> <a href="https://t.me/lama_n_tin"  target="_blank">t.me/dzhezhuley</a></li>
+                    <li class="vertical-list-elem"><em>Email: </em><a href="mailto:valentindjejylej@gmail.com">valentindjejylej@gmail.com</a></li>
                 </ul>
             </div>
     
             <div>
                 <h3>Contact phones:</h3>
-                <ul style="list-style: none; padding: 0;">
-                    <li style="margin-bottom: 0.5em;"><a href="tel:+380639684102">+380639684102</a></li>
-                    <li><a href="tel:0443124102">0443124102</a></li>
+                <ul class="general-list">
+                    <li class="vertical-list-elem"><a href="tel:+380639684102">+380639684102</a></li>
+                    <li class="vertical-list-elem"><a href="tel:0443124102">0443124102</a></li>
                 </ul>
             </div>
     
         </section>
     
-        <section style="min-width: 400px; margin: 0 3rem; max-height: max-content;">
+        <section class="iframe-section">
             <h3>Where to find me</h3>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.637084028706!2d30.490357915943996!3d50.44786019543227!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce8b1cc9eb4f%3A0x7d266cedc2d332a2!2zVHN5cmssINC_0LvQvtGJ0LAg0J_QtdGA0LXQvNC-0LPQuCwgMiwg0JrQuNGX0LIsIDAxMTM1!5e0!3m2!1sru!2sua!4v1670927524884!5m2!1sru!2sua"
                 width="100%" height='300' style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
+                referrerpolicy="no-referrer-when-downgrade">Circus on Shevchenko st.</iframe>
         </section>
     
     </footer>
